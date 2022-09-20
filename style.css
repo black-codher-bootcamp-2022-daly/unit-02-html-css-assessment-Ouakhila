@@ -1,0 +1,197 @@
+/*Lato font*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+/*Urbanist font*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  height: 100%;
+  background-color: burlywood;
+}
+.container {
+  min-height: 100%;
+}
+/*Navigation bar styling*/
+
+.nav-element {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+
+  float: right;
+  margin-bottom: 2em;
+  padding-left: 2px;
+  padding-right: 8px;
+}
+.nav-bar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+}
+.list {
+  float: left;
+}
+
+.list a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.list a:hover {
+  color: white;
+}
+/*.logo {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}*/
+
+/*Intro block styling*/
+.intro-block {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-top: 100px;
+}
+h2 {
+  font-size: 55px;
+  padding-top: 0px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  padding-left: 67px;
+}
+
+/*Block2 styling*/
+.about-me {
+  position: relative;
+  padding-top: 100px;
+  max-width: 700px;
+  padding-left: 20px;
+  margin: 0px auto;
+}
+.about-me-paragraph {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto;
+  display: flex;
+  justify-content: center;
+}
+.h3 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 0px auto;
+  padding-top: 50px;
+  max-width: 1000px;
+  font-size: 20px;
+}
+.profile-img {
+  vertical-align: middle;
+}
+.p1 {
+  font-size: 35px;
+  padding-top: 0px;
+}
+.p2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+/*Block3 styling*/
+.block3-styling {
+  position: relative;
+  padding-top: 150px;
+  margin: 0px auto;
+  max-width: 700px;
+}
+.projects {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: left;
+}
+.h4 {
+  font-size: 20px;
+}
+
+/*Block4 styling*/
+.block4-styling {
+  position: relative;
+  padding-top: 50px;
+  list-style-type: none;
+  margin: 0px auto;
+  max-width: 700px;
+  padding-bottom: 50px;
+}
+.h5 {
+  font-size: 20px;
+}
+
+/*Footer Styling*/
+.footer {
+  /*position: absolute;*/
+  padding: 20px;
+  margin-left: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+  background: #111;
+  height: 200px;
+  width: 100%;
+  padding-top: 10px;
+  color: #fff;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.h5 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.social-media {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socia {
+  margin: 0 10px;
+}
+.social-media a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.social-media a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+}
+.social-media a:hover {
+  color: white;
+}
+.footer .bottom-notes {
+  background: #000;
+  height: 20px;
+  padding: auto;
+  padding-bottom: 40px;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 10px;
+  width: 100%;
+}
