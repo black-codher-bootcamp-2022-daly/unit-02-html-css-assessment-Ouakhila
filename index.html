@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <title>Ouakhila portfolio</title>
+    <link rel="icon" type="icon" href="favicon.ico" />
   </head>
   <body>
     <!--Navigation bar-->
@@ -28,11 +29,11 @@
       <div class="container">
         <section class="intro-block">
           <div>
-            <h1>Hi, my name is</h1>
-            <h2>Ouakhilatou Torou</h2>
+            <h1 class="h1">Hi, my name is</h1>
+            <h2 class="h2">Ouakhilatou Torou</h2>
             <p class="p1">
-              I am a sofware developer and,<br />
-              I am currently on a blackCodher<br />bootcamp.
+              I am a sofware developer and, I am currently on<br />
+              a blackCodher bootcamp.
             </p>
           </div>
         </section>
@@ -124,6 +125,7 @@
           </ul>
         </div>
         <!--PREVIOUS PROJECT USING GRID FORMAT-->
+        <div class="prev-title"><h>Projects I have Build</h></div>
         <div class="previous-project">
           <div class="box a">
             <a href="">
@@ -180,24 +182,41 @@
 
         <!--CONTACT ME -->
         <section class="block4-styling">
-          <h5 class="h5">Contact me</h5>
-          <form>
-            <div>
-              <label class="name"></label>
-              <input class="input-name" type="name" placeholder="name" />
-              <label class="email"></label>
-              <input class="input-email" type="email" placeholder="email" />
+          <div class="row">
+            <h5>Get in touch with me</h5>
+          </div>
+          <div class="row">
+            <h4 style="text-align: center">I'd love to hear from you!</h4>
+          </div>
+          <div class="row input-container">
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <input type="text" required />
+                <label>Name</label>
+              </div>
             </div>
-
-            <div class="text">
-              <textarea
-                class="input-message"
-                type="text"
-                placeholder="message"
-              ></textarea>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input">
+                <input type="text" required />
+                <label>Email</label>
+              </div>
             </div>
-            <input class="flat-button" type="submit" value="Submit" />
-          </form>
+            <div class="col-md-6 col-sm-12">
+              <div class="styled-input" style="float: right">
+                <input type="text" required />
+                <label>Phone Number</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <textarea required></textarea>
+                <label>Message</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="btn-lrg submit-btn">Send Message</div>
+            </div>
+          </div>
         </section>
       </div>
     </div>
