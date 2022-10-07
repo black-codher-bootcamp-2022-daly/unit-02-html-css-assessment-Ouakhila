@@ -391,7 +391,7 @@ a{
 }
 /*My YouTube Video*/
 .myvideo {
-  width:500px;
+  width:700px;
   justify-content: center;
   margin-left: 100px;
 	background-color:#072736;
@@ -459,7 +459,7 @@ iframe{
 .social-media a {
   text-decoration: none;
   color: #fff;
-  /*border: 1.1px solid white;*/
+  border: 1.1px solid white;
   padding: 5px;
 }
 .social-media a i {
