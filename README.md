@@ -1,4 +1,4 @@
-[TODO: Replace with your Netflify status badge]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4a09c587-9963-4a4a-8772-b6db94780614/deploy-status)](https://app.netlify.com/sites/majestic-swan-f4c710/deploys)
 
 # HTML and CSS Assessment
 
@@ -18,18 +18,19 @@ You are free to add more content and style it anyway you want. Below is some [ex
 ## Assessment Criteria
 
 <!-- Flesh this out some more -->
+
 1. Create `index.html` containing:
-    1. Meta
-        1. `<title>`
-        1. `<link>` including a favicon
-    1. `<h1>` with your name
-    1. `<section>` containing a brief description of yourself, with the class name `about-me`
-    1. `<img>` containing an image of yourself or your avatar, with the class name `profile-img`
-    1. `<ul>` containing all of your current and upcoming projects, with the class name `projects`
-    1. `<footer>` containing a `<ul>` with the class name `social-media`, listing all your public social media accounts (including GitHub). If you don't want to share your own social media accounts feel free to use the Black Codher accounts.
+   1. Meta
+      1. `<title>`
+      1. `<link>` including a favicon
+   1. `<h1>` with your name
+   1. `<section>` containing a brief description of yourself, with the class name `about-me`
+   1. `<img>` containing an image of yourself or your avatar, with the class name `profile-img`
+   1. `<ul>` containing all of your current and upcoming projects, with the class name `projects`
+   1. `<footer>` containing a `<ul>` with the class name `social-media`, listing all your public social media accounts (including GitHub). If you don't want to share your own social media accounts feel free to use the Black Codher accounts.
 2. Create external stylesheet at `styles/main.css`
-    1. Must be linked from `index.html`
-    2. Import at least one font
+   1. Must be linked from `index.html`
+   2. Import at least one font
 3. [Deployed to Netlify](https://docs.netlify.com/site-deploys/create-deploys/) and your [site's status badge](https://docs.netlify.com/monitor-sites/status-badges/) added to this file (`README.md`)
 
 ## How to submit
@@ -39,6 +40,7 @@ You must push all the code to this repository. It's advisable to work on your co
 ## Projects
 
 <!-- Update once names of projects have been finalised -->
+
 1. JavaScript group project
 1. React project
 1. Node project
